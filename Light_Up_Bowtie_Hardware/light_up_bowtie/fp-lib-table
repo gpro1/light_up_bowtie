@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BU2032_1_HD_G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/light_up_tie_library/BU2032_1_HD_G")(options "")(descr ""))
+  (lib (name "light_up_bowtie")(type "KiCad")(uri "${KIPRJMOD}/Libraries/light_up_tie_library/light_up_bowtie.pretty")(options "")(descr ""))
+)

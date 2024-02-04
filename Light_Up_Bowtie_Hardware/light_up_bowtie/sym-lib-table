@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BU2032-1-HD-G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/light_up_tie_library/BU2032_1_HD_G/BU2032-1-HD-G.kicad_sym")(options "")(descr ""))
+)
