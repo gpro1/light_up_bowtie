@@ -1156,13 +1156,13 @@
   (symbol (lib_id "Device:R_US") (at 110.49 117.094 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0bab65bb-d70b-4bd8-80e7-fac2ad45df7a)
-    (property "Reference" "R8" (at 113.03 115.824 0)
+    (property "Reference" "R1" (at 113.03 115.824 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 113.03 118.364 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 111.506 117.348 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 111.506 117.348 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.49 117.094 0)
@@ -1173,7 +1173,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "R8") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1208,13 +1208,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 77.47 108.712 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0eea89fe-d68a-4314-bfc6-d422faa85975)
-    (property "Reference" "J2" (at 80.01 108.712 0)
+    (property "Reference" "J1" (at 80.01 108.712 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 80.01 111.252 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 77.47 108.712 0)
+    (property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" (at 77.47 108.712 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 108.712 0)
@@ -1225,7 +1225,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1260,13 +1260,13 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 228.346 82.296 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ad4e4b0-5306-4e54-9887-91d7b5057eca)
-    (property "Reference" "J1" (at 229.616 73.406 0)
+    (property "Reference" "J2" (at 229.616 73.406 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x03_Odd_Even" (at 229.616 75.946 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 228.346 82.296 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (at 228.346 82.296 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 228.346 82.296 0)
@@ -1281,7 +1281,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1340,7 +1340,7 @@
   (symbol (lib_id "MCU_Microchip_ATtiny:ATtiny85-20S") (at 178.308 111.506 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dac25c8-004b-427b-9715-9a6ca5df349b)
-    (property "Reference" "U1" (at 164.338 110.236 0)
+    (property "Reference" "U2" (at 164.338 110.236 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "ATtiny85-20S" (at 164.846 116.078 0)
@@ -1363,7 +1363,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1372,7 +1372,7 @@
   (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 126.238 113.284 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 22dfba5a-80aa-4a3d-8665-6c3cbb2cd975)
-    (property "Reference" "U2" (at 126.238 103.378 0)
+    (property "Reference" "U1" (at 126.238 103.378 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP2112K-3.3" (at 126.238 105.918 0)
@@ -1392,7 +1392,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1401,7 +1401,7 @@
   (symbol (lib_id "Device:R_US") (at 126.238 91.186 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 447f6b95-806f-4ce9-ae56-5d17e695c50a)
-    (property "Reference" "R1" (at 126.238 84.836 90)
+    (property "Reference" "R2" (at 126.238 84.836 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 126.238 87.376 90)
@@ -1418,7 +1418,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1479,7 +1479,7 @@
   (symbol (lib_id "power:GND") (at 72.39 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5190fb58-757f-4137-bd96-ffa0a71c28de)
-    (property "Reference" "#PWR06" (at 72.39 135.89 0)
+    (property "Reference" "#PWR04" (at 72.39 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 134.62 0)
@@ -1495,7 +1495,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1504,7 +1504,7 @@
   (symbol (lib_id "Device:C") (at 105.664 109.474 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 65c6eb2e-d437-4292-b23b-fe3e8e170ce9)
-    (property "Reference" "C2" (at 99.06 108.204 0)
+    (property "Reference" "C1" (at 99.06 108.204 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 99.06 110.744 0)
@@ -1521,7 +1521,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1530,7 +1530,7 @@
   (symbol (lib_id "Device:R_US") (at 216.408 128.016 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fee3291-d1b0-47e0-9ca9-f23da69dada3)
-    (property "Reference" "R5" (at 218.948 126.746 0)
+    (property "Reference" "R6" (at 218.948 126.746 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 218.948 129.286 0)
@@ -1547,7 +1547,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1556,7 +1556,7 @@
   (symbol (lib_id "Device:C") (at 136.144 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 705e4d0b-bef1-4ff9-89ec-b47bb9985c86)
-    (property "Reference" "C1" (at 139.954 119.38 0)
+    (property "Reference" "C2" (at 139.954 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 139.954 121.92 0)
@@ -1573,7 +1573,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "C1") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1582,7 +1582,7 @@
   (symbol (lib_id "Device:R_US") (at 201.168 97.028 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7aeca346-f1c8-476a-93b6-3f3cb004f290)
-    (property "Reference" "R2" (at 203.708 95.758 0)
+    (property "Reference" "R4" (at 203.708 95.758 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 203.708 98.298 0)
@@ -1599,7 +1599,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1634,7 +1634,7 @@
   (symbol (lib_id "Device:R_US") (at 226.568 128.016 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95395843-4bda-4120-9bbe-9c4d3949c001)
-    (property "Reference" "R6" (at 229.108 126.746 0)
+    (property "Reference" "R7" (at 229.108 126.746 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 229.108 129.286 0)
@@ -1651,7 +1651,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1660,7 +1660,7 @@
   (symbol (lib_id "power:VCC") (at 91.44 88.646 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a79c0f92-ddbb-4608-8511-dba7416acbdc)
-    (property "Reference" "#PWR02" (at 91.44 92.456 0)
+    (property "Reference" "#PWR05" (at 91.44 92.456 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 91.44 83.82 0)
@@ -1676,7 +1676,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "power:GND") (at 41.91 129.794 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba3d6bcf-0863-4043-a4ec-ad970cf46ca0)
-    (property "Reference" "#PWR03" (at 41.91 136.144 0)
+    (property "Reference" "#PWR02" (at 41.91 136.144 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.91 134.874 0)
@@ -1751,7 +1751,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1760,7 +1760,7 @@
   (symbol (lib_id "Device:R_US") (at 235.458 128.016 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb110cf7-cecd-469a-bc82-797f595d4215)
-    (property "Reference" "R7" (at 237.998 126.746 0)
+    (property "Reference" "R8" (at 237.998 126.746 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 237.998 129.286 0)
@@ -1777,7 +1777,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1786,7 +1786,7 @@
   (symbol (lib_id "Device:R_US") (at 206.248 128.016 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbc33540-3d50-4012-8e7e-153ae3de3dd2)
-    (property "Reference" "R4" (at 208.788 126.746 0)
+    (property "Reference" "R5" (at 208.788 126.746 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 208.788 129.286 0)
@@ -1803,7 +1803,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "R4") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1891,7 +1891,7 @@
   (symbol (lib_id "power:VCC") (at 72.39 89.916 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e83a1b00-2072-4c80-972d-3d829da5db28)
-    (property "Reference" "#PWR05" (at 72.39 93.726 0)
+    (property "Reference" "#PWR03" (at 72.39 93.726 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 72.39 85.09 0)
@@ -1907,7 +1907,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1916,7 +1916,7 @@
   (symbol (lib_id "power:GND") (at 144.018 131.572 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea1683df-585e-4b14-8207-b31f2ef42026)
-    (property "Reference" "#PWR04" (at 144.018 137.922 0)
+    (property "Reference" "#PWR06" (at 144.018 137.922 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.018 136.652 0)
@@ -1932,7 +1932,7 @@
     (instances
       (project "light_up_bowtie"
         (path "/8648139f-25b2-4ab0-9bfd-d75abef2455a"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
