@@ -172,7 +172,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.508
       ],
       "via_dimensions": [
         {
@@ -190,12 +192,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_connected|1041400|861060|20016826-219d-4da2-afef-ba935072ee0c|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|1186180|1107440|ccce2a2a-1b11-473b-b9b3-bed6ac7b3f98|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|1262380|1209040|a65f1f06-9f84-4695-a327-036d6f34e7df|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|419100|901700|59453cf1-f3b3-48e0-8a92-8d2aac697a25|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
